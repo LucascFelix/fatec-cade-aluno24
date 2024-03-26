@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id":  1,
+      "name": "Lucas Felix",
+      "course": "Computação"
+    },
+    {
+      "id":  2,
+      "name": "Mateus Felix",
+      "course": "Técnico em meio Ambiente"
+    },
+    {
+      "id":  3,
+      "name": "Rafaeli Felix",
+      "course": "Letras"
+    }
+  ]
+}
