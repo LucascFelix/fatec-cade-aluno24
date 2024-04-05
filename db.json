@@ -2,18 +2,18 @@
   "students": [
     {
       "id": 1,
-      "name": "José lima",
+      "name": "José Geraldo de Lima",
       "course": "Matemática"
     },
     {
       "id": 2,
-      "name": "Janete Calori",
+      "name": "Janete Calori Lima",
       "course": "Letras"
     },
     {
       "id": 3,
-      "name": "Valmir Felix",
-      "course": "Português"
+      "name": "Valmir Antonio Felix da Silva",
+      "course": "Psicologia"
     }
   ]
 }
