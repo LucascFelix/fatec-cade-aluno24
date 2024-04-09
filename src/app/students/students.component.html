@@ -1,4 +1,3 @@
-
 <div class="container bg-light p-4">
     <div class="row">
         <div class="col-7 m-auto">
@@ -7,10 +6,16 @@
                 <div class="mb-3">
                     <label for="nome" class="form-label">Nome</label>
                     <input type="TEXT" class="form-control" id="nome" formControlName="name" />
+                    <small *ngIf="name.hasError('minlength')" class="text-danger">
+                        * O nome tem que ter no mínimo 3 caracteres!
+                    </small>
                 </div>
                 <div class="mb-3">
                     <label for="Curso" class="form-label">Curso</label>
                     <input type="TEXT" class="form-control" id="Curso" formControlName="course" />
+                    <small *ngIf="name.hasError('required')" class="text-danger">
+                        * O Curso é requerido!
+                    </small>
                 </div>
                 <button type="submit" class="btn btn-primary" (click)="save()">Salvar</button>
             </form>
@@ -29,9 +34,8 @@
                         <td>{{student.name}}</td>
                         <td>{{student.course}}</td>
                         <td class="d-flex justify-contend-end">
-                            <button class="btn btn-danger me-2"
-                            (click)="delete(student)">Remover</button>
-                            <button class="btn btn-primary"(click)="edit(student)">Alterar</button>
+                            <button class="btn btn-danger me-2" (click)="delete(student)">Remover</button>
+                            <button class="btn btn-primary" (click)="edit(student)">Alterar</button>
                         </td>
                     </tr>
                 </tbody>

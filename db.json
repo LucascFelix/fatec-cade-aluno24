@@ -2,13 +2,8 @@
   "students": [
     {
       "id": 1,
-      "name": "José Geraldo de Lima",
+      "name": "José Geraldo de Lima ",
       "course": "Matemática"
-    },
-    {
-      "id": 2,
-      "name": "Janete Calori Lima",
-      "course": "Letras"
     },
     {
       "id": 3,
